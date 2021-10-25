@@ -1,24 +1,13 @@
-# README
+# Before starting the app, please download pull the "front-end" side of the app https://github.com/islommashanlo/coding-challenge-nw
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+After getting the backend and the fronted, do "bundle install", then "rails db:drop" -> "rails db:create" -> "rails db:migrate" and finally "rails s" on the Rails app. This will run the server side which also fetches external APIs.
 
-Things you may want to cover:
+After that you can run "npm install" and then "npm start" on the React app and you should be all set.
 
-* Ruby version
 
-* System dependencies
+The app utilizes the TheMovieDB api, so if you cant access the information (without my API_KEY). You can easily get one on their website. 
 
-* Configuration
+Thank you and enjoy!
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
